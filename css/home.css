@@ -1,0 +1,69 @@
+/* -----------Ist---------- */
+.cards {
+  margin-top: 50px;
+}
+
+.col-md-2 {
+  width: 100%; /* Changed to 100% for better responsiveness */
+}
+
+.product-card {
+  width: 100%; /* Changed to 100% for better responsiveness */
+  max-width: 160px; /* Keeps the maximum width of the card */
+  height: auto; /* Adjusts height automatically */
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto; /* Adjusts height automatically */
+  object-fit: cover;
+  border: 1px solid rgb(1, 72, 47);
+}
+
+.product-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(1, 72, 47);
+}
+
+.card-body {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid rgb(1, 72, 47);
+}
+
+.card-title {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 0.9em;
+}
+
+/* ----------More---------- */
+.btun {
+  background-color: transparent !important;
+  border-color: 20px solid rgb(1, 72, 47) !important;
+  font-size: 1.1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(1, 72, 47);
+  padding: 5px 15px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.btun i {
+  font-size: 1.2em;
+}
+
+.btun:hover {
+  background-color: rgb(1, 72, 47) !important;
+  color: whitesmoke !important;
+}
+
