@@ -176,7 +176,6 @@ body {
 
 /* ----------Scroll Bar----------- */
 
-
 /* ------------FOOTER------------- */
 .footer {
   padding: 20px 0;
@@ -225,6 +224,18 @@ body {
 * {
   scrollbar-width: thin;
   scrollbar-color: rgb(1, 72, 47) rgba(1, 72, 47, 0.3);
+}
+
+/* -------whatsapp------- */
+.whatsapp-button {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  z-index: 100;
+}
+.whatsapp-button img {
+  width: 70px;
+  height: 70px;
 }
 
 /* --------scroll button-------- */
